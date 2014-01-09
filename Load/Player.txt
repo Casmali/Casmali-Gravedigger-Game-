@@ -1,0 +1,2 @@
+Load=[Image][Position]
+[image1.png][10,10]

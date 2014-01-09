@@ -1,0 +1,9 @@
+Load=[Image]
+[Splash/image1.png]
+[Splash/image2.png]
+[Splash/image3.png]
+
+Load=[Title]
+
+
+EndLoad=[Title]

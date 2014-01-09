@@ -1,0 +1,113 @@
+﻿Build started 1/9/2014 11:48:56 AM.
+     1>Project "C:\Allegro\Allegro Test\Allegro Test\Allegro Test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Allegro Test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:\Allegro\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\Animation.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\FadeAnimation.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\FileManager.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\GameplayScreen.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\GameScreen.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\InputManager.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\Main.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\MenuManager.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\Player.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\ScreenManager.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\SplashScreen.cpp" "..\..\..\Users\mark.williams\Desktop\ALLEGRO TUT\Allegro 5 Platformer\Allegro 5 Platformer\TitleScreen.cpp"
+         TitleScreen.cpp
+         SplashScreen.cpp
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\splashscreen.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\splashscreen.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\splashscreen.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(163): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(247) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<_Ty,_Ty>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty1=float,
+                     _Ty2=float,
+                     _Ty=int,
+                     _Other1=int,
+                     _Other2=int
+                 ]
+                 c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\splashscreen.cpp(23) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<int,int>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty1=float,
+                     _Ty2=float,
+                     _Other1=int,
+                     _Other2=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(163): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         ScreenManager.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(163): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(247) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<_Ty,_Ty>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty1=float,
+                     _Ty2=float,
+                     _Ty=int,
+                     _Other1=int,
+                     _Other2=int
+                 ]
+                 c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\screenmanager.cpp(39) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<int,int>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty1=float,
+                     _Ty2=float,
+                     _Other1=int,
+                     _Other2=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(163): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         Player.cpp
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\player.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\player.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+         MenuManager.cpp
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(143): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(162): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\menumanager.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+         InputManager.cpp
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\inputmanager.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\inputmanager.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+         GameScreen.cpp
+         GameplayScreen.cpp
+         FileManager.cpp
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(31): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(37): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(52): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(59): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(103): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(109): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(124): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+     1>c:\users\mark.williams\desktop\allegro tut\allegro 5 platformer\allegro 5 platformer\filemanager.cpp(131): warning C4482: nonstandard extension used: enum 'FileManager::LoadType' used in qualified name
+         FadeAnimation.cpp
+         Animation.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Allegro\Allegro Test\Debug\Allegro Test.exe" /NOLOGO /LIBPATH:"allegro-5.0.10-monolith-md-debug.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "allegro-5.0.10-monolith-md-debug.lib" /MANIFEST /ManifestFile:"Debug\Allegro Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Allegro\Allegro Test\Debug\Allegro Test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Allegro\Allegro Test\Debug\Allegro Test.lib" /MACHINE:X86 Debug\Animation.obj
+         Debug\FadeAnimation.obj
+         Debug\FileManager.obj
+         Debug\GameplayScreen.obj
+         Debug\GameScreen.obj
+         Debug\InputManager.obj
+         Debug\Main.obj
+         Debug\MenuManager.obj
+         Debug\Player.obj
+         Debug\ScreenManager.obj
+         Debug\SplashScreen.obj
+         Debug\TitleScreen.obj
+         LINK : C:\Allegro\Allegro Test\Debug\Allegro Test.exe not found or not built by the last incremental link; performing full link
+         Allegro Test.vcxproj -> C:\Allegro\Allegro Test\Debug\Allegro Test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Allegro\Allegro Test\Debug\Allegro Test.exe;#1" /manifest "Debug\Allegro Test.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Allegro Test.unsuccessfulbuild".
+         Touching "Debug\Allegro Test.lastbuildstate".
+     1>Done Building Project "C:\Allegro\Allegro Test\Allegro Test\Allegro Test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.93
